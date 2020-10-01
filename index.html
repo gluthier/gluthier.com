@@ -10,30 +10,51 @@
     <style>
         @font-face {
             font-family: 'Merriweather';
-            src: url('font/Merriweather-Regular.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
+            src:
+                local('Merriweather'),
+                local('Merriweather Regular'),
+                local('Merriweather-Regular'),
+                url('font/Merriweather-Regular.ttf'),
+                format('truetype');
+            font-display: swap;
         }
 
         @font-face {
             font-family: 'Merriweather';
-            src: url('font/Merriweather-Italic.ttf') format('truetype');
             font-weight: normal;
             font-style: italic;
+            src:
+                local('Merriweather Italic'),
+                local('Merriweather-Italic'),
+                url('font/Merriweather-Italic.ttf'),
+                format('truetype');
+            font-display: swap;
         }
 
         @font-face {
             font-family: 'Merriweather';
-            src: url('font/Merriweather-Bold.ttf') format('truetype');
             font-weight: bold;
             font-style: normal;
+            src:
+                local('Merriweather Bold'),
+                local('Merriweather-Bold'),
+                url('font/Merriweather-Bold.ttf'),
+                format('truetype');
+            font-display: swap;
         }
 
         @font-face {
             font-family: 'Merriweather';
-            src: url('font/Merriweather-BoldItalic.ttf') format('truetype');
             font-weight: bold;
             font-style: italic;
+            src:
+                local('Merriweather BoldItalic'),
+                local('Merriweather-BoldItalic'),
+                url('font/Merriweather-BoldItalic.ttf'),
+                format('truetype');
+            font-display: swap;
         }
 
         body {
