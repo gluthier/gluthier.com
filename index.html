@@ -96,15 +96,6 @@
             color: #803a4f;
         }
 
-        .internal-link {
-            text-decoration: none;
-            color: #222;
-        }
-
-        .internal-link:visited {
-            color: #222;
-        }
-
         li {
             margin: 1em 0;
         }
@@ -119,6 +110,11 @@
 
         section {
             margin-bottom: 2em;
+        }
+
+        th,
+        td {
+            padding: 0.4em 0.2em;
         }
     </style>
 </head>
@@ -136,12 +132,18 @@
 
         <main>
             <nav>
-                <ul style="list-style: none; padding: 0">
-                    <li>&#128221; <a class="internal-link" href="./publications.html" title="My publications">Publications</a></li>
-                    <li><img src="./GitHub-Mark-32px.png" alt="GitHub logo" height="20px" style="margin-bottom: -0.2em; margin-right: 0.2em;"> <a href="https://github.com/gluthier" title="My GitHub page">GitHub</a></li>
-                </ul>
+                <table>
+                    <tr>
+                        <th>&#128221;</th>
+                        <td><a href="./publications.html" title="My publications">Publications</a></td>
+                    </tr>
+                    <tr>
+                        <th><img src="./GitHub-Mark-32px.png" alt="GitHub logo" height="20px"></th>
+                        <td><a href="https://github.com/gluthier" title="My GitHub page">GitHub</a></td>
+                    </tr>
+                </table>
             </nav>
-            
+
         </main>
     </div>
 </body>
