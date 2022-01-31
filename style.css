@@ -112,3 +112,7 @@ th,
 td {
     padding: 0.4em 0.2em;
 }
+
+abbr {
+    text-decoration: none;
+  }
