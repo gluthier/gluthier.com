@@ -104,9 +104,8 @@ section {
     margin-bottom: 2em;
 }
 
-th,
-td {
-    padding: 0.4em 0.2em;
+nav td {
+    padding-right: 2em;
 }
 
 abbr {
